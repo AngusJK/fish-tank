@@ -1,7 +1,8 @@
 class BiteFish extends Fish {
 
-  constructor() {
-
+  constructor(options) {
+    super(options);
+    this.imageUri = '/images/bite-fish.png';
   }
 
   updateOneTick() {
